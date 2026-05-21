@@ -136,6 +136,9 @@ chsh -s $(which fish)
 | `PRINT` | Fullscreen screenshot |
 | `SUPER + PRINT` | Region screenshot |
 
+>[!IMPORTANT]
+> The status pill in the waybar when left click on it opens swaync, and when you right click on the module (wifi,sound) opens the menu of the module.
+
 ---
 
 ## 📁 Structure
