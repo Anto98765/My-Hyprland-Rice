@@ -34,7 +34,7 @@
 
 | Role | Tool |
 |---|---|
-| WM | [Hyprland](https://hyprland.org/) |
+| WM | [Hyprland 0.55.2-1](https://hyprland.org/) |
 | Bar | Waybar |
 | Launcher | Rofi |
 | Terminal | Kitty |
