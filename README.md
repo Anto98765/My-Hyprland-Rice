@@ -66,10 +66,14 @@ sudo pacman -Syu
 
 # pacman packages
 sudo pacman -S hyprland hypridle hyprlock hyprshot waybar rofi kitty fish awww swaync btop \
-               cava cliphist wl-clipboard matugen nautilus neovim satty --needed
+               cava cliphist wl-clipboard matugen nautilus neovim satty otf-aurulent-nerd \
+               otf-font-awesome ttf-dejavu ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
+               ttf-nerd-fonts-symbols woff2-font-awesome --needed
 
 # yay packages
-yay -S wlogout neofetch papirus-folders
+yay -S wlogout neofetch papirus-folders ttf-joypixels ttf-rubik-vf \
+               ttf-material-design-icons-extended --needed
+               
 ```
 
 ### 2. Clone the repo
@@ -97,8 +101,6 @@ chsh -s $(which fish)
 
 ### 5. Restart your PC
 
->[!TIP]
-> To get blur for nautilus and for some apps that support blur apply the Tahoe-Dark Theme from GTK settings, and for folders I used papirus folders theme
 
 ## ⌨️ Keybindings
 
@@ -112,6 +114,9 @@ chsh -s $(which fish)
 | `SUPER + L` | Lock screen |
 | `SUPER + ESC` | Logout menu (wlogout) |
 | `SUPER + I` | Internet Manager (NetworkManager_dmenu) |
+
+>[!IMPORTANT]
+> The status pill in the waybar when left click on it opens swaync, and when you right click on the module (wifi,sound) opens the menu of the module.
 
 ### 🪟 Windows & Layout
 
@@ -136,8 +141,7 @@ chsh -s $(which fish)
 | `SUPER + B` | Browser (Brave) |
 | `SUPER + W` | Wallpaper picker (Rofi) |
 
->[!Important]
->To use the wallpaper switcher make sure to put all wallpapers inside (~/Pictures/wallpapers) and rename all wallpapers like what i did in Pictures folder.
+
 
 ### 📸 Screenshot
 
@@ -146,27 +150,38 @@ chsh -s $(which fish)
 | `PRINT` | Fullscreen screenshot |
 | `SUPER + PRINT` | Region screenshot |
 
+
+### 💻 Laptop Hotkey
+
+| Keybind | Action |
+|---|---|
+| `SUPER + F2` | Brightness - |
+| `SUPER + F3` | Brightness + |
+| `SUPER + F6` | Mute |
+| `SUPER + F7` | Volume - |
+| `SUPER + F8` | Volume + |
+
 >[!IMPORTANT]
-> The status pill in the waybar when left click on it opens swaync, and when you right click on the module (wifi,sound) opens the menu of the module.
+>These shortcut differs depending on your laptop's manufacture
 
 ---
-
-
-
-### 4. **Customization Guide**
 
 ## 🎨 Customization
 
 ### Change Color Scheme
-1. Put wallpaper in `~/Pictures/wallpapers/`
-2. Press `SUPER + W` → Select wallpaper
-3. Colors auto-generate via matugen
+The color scheme is pre-generated with matugen based on the wallpaper .
+
+### Wallpaper switcher
+To use the wallpaper switcher make sure to put all wallpapers inside (~/Pictures/wallpapers) and rename all wallpapers like what i did in Preview folder.
 
 ### Modify Keybindings
-Edit `~/.config/hypr/hyprland.conf`
+Edit `~/.config/hypr/hyprland.conf`.
 
 ### Change Theme
-Run GTK settings → Select **Tahoe-Dark** theme
+Run GTK settings → Select **Tahoe-Dark** theme for blur support on apps .
+
+### Change Folder icons
+Run GTK settings → Select **Papirus-Dark** .
 
 ---
 
