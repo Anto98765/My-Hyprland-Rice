@@ -16,10 +16,8 @@
 
 ## 🖼️ Showcase
 
-<video width="100%" controls>
-  <source src="Preview/preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch Demo](https://img.youtube.com/vi/61ffUUds7MQ/0.jpg)](https://youtu.be/61ffUUds7MQ)
+
 
 ---
 
