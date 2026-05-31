@@ -2,16 +2,10 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-# My-Hyprland-setup install script (beginner-friendly)
-# - Shows welcome + warning; asks user to confirm backups were made
-# - Copies files into the user's home (~)
-# - Optionally sets Fish as the default shell
-# - Prints progress and completion messages
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 ask_yes_no() {
-  # Prompt with a yes/no question. Returns 0 (true) for yes.
   local prompt="$1"
   local ans
   read -r -p "$prompt [y/N]: " ans
