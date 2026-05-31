@@ -16,7 +16,10 @@
 
 ## 🖼️ Showcase
 
-[![Watch Demo](https://img.youtube.com/vi/61ffUUds7MQ/0.jpg)](https://youtu.be/61ffUUds7MQ)
+
+[Watch demo (MP4)](Preview/preview.mp4)
+
+*Click to play the demo in the repository (opens GitHub's file viewer with built-in player).*
 
 
 ---
