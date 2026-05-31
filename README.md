@@ -16,11 +16,7 @@
 
 ## 🖼️ Showcase
 
-
-[Watch demo (MP4)](Preview/preview.mp4)
-
-*Click to play the demo in the repository (opens GitHub's file viewer with built-in player).*
-
+https://github.com/user-attachments/assets/542d751f-b0ac-4cf0-acbb-4301aba04dd0
 
 ---
 
