@@ -65,12 +65,14 @@ sudo pacman -Syu
 # Install Hyprland and core dependencies
 
 # pacman packages
+
 sudo pacman -S hyprland hypridle hyprlock hyprshot waybar rofi kitty fish awww swaync btop \
                cava cliphist wl-clipboard matugen nautilus neovim satty otf-aurulent-nerd \
                otf-font-awesome ttf-dejavu ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
                ttf-nerd-fonts-symbols woff2-font-awesome --needed
 
 # yay packages
+
 yay -S wlogout neofetch papirus-folders ttf-joypixels ttf-rubik-vf \
                ttf-material-design-icons-extended --needed
                
@@ -83,24 +85,18 @@ git clone https://github.com/Anto98765/My-Hyprland-setup.git ~/My-Hyprland-setup
 cd ~/My-Hyprland-setup
 ```
 
-### 3. Copy files
+### 3. Run the install script
 
 ```bash
-cp -r .config/* ~/.config/
-cp -r .local/bin/oh-my-posh ~/
-cp -r .poshthemes ~/
-cp -r .themes
+chmod +x install.sh
+./install.sh
 
 ```
 
-### 4. Set Fish as default shell
+### 4. Restart your PC
 
-```bash
-chsh -s $(which fish)
-```
-
-### 5. Restart your PC
-
+>[!IMPORTANT]
+>If Fish was not set as your default shell, either run chsh -s $(which fish) or manually add exec fish to your ~/.bashrc
 
 ## ⌨️ Keybindings
 
