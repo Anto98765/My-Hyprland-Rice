@@ -213,7 +213,9 @@ My-Hyprland-setup/
 ---
 ## Full Tutorial from arch end with rice
 
-coming soon ....
+coming soon ..
+
+
 ---
 
 ## 📄 License
