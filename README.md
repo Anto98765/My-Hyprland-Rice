@@ -16,10 +16,8 @@
 
 ## 🖼️ Showcase
 
-<<<<<<< HEAD
-=======
+
 https://github.com/user-attachments/assets/542d751f-b0ac-4cf0-acbb-4301aba04dd0
->>>>>>> 69dc948edaba3f0e4a9531885876a967ce7a86a0
 
 ---
 
