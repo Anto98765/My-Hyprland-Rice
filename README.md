@@ -16,6 +16,10 @@
 
 ## 🖼️ Showcase
 
+<<<<<<< HEAD
+=======
+https://github.com/user-attachments/assets/542d751f-b0ac-4cf0-acbb-4301aba04dd0
+>>>>>>> 69dc948edaba3f0e4a9531885876a967ce7a86a0
 
 ---
 
@@ -52,39 +56,14 @@
 >[!WARNING]
 >Before procced to the installation, make sure to backup your Dotfiles.
 
-### 1. Prerequisites
-
-```bash
-# First update your system
-sudo pacman -Syu
-```
-
-
-```bash
-# Install Hyprland and core dependencies
-
-# pacman packages
-
-sudo pacman -S hyprland hypridle hyprlock hyprshot waybar rofi kitty fish awww swaync btop \
-               cava cliphist wl-clipboard matugen nautilus neovim satty otf-aurulent-nerd \
-               otf-font-awesome ttf-dejavu ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
-               ttf-nerd-fonts-symbols woff2-font-awesome --needed
-
-# yay packages
-
-yay -S wlogout neofetch papirus-folders ttf-joypixels ttf-rubik-vf \
-               ttf-material-design-icons-extended --needed
-               
-```
-
-### 2. Clone the repo
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/Anto98765/My-Hyprland-setup.git ~/My-Hyprland-setup
 cd ~/My-Hyprland-setup
 ```
 
-### 3. Run the install script
+### 2. Run the install script
 
 ```bash
 chmod +x install.sh
@@ -92,7 +71,7 @@ chmod +x install.sh
 
 ```
 
-### 4. Restart your PC
+### 3. Restart your PC
 
 >[!IMPORTANT]
 >If Fish was not set as your default shell, either run chsh -s $(which fish) or manually add exec fish to your ~/.bashrc
@@ -208,6 +187,12 @@ My-Hyprland-setup/
 └── Pictures/
     └── wallpapers/              #preview wallpapers
 ```
+
+---
+## Full Tutorial from arch end with rice
+
+coming soon ..
+
 
 ---
 

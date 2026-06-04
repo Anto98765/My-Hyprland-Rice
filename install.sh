@@ -32,6 +32,31 @@ fi
 echo
 echo "Starting installation..."
 
+echo
+echo "Step 0 — Install required packages (optional)"
+if ask_yes_no "Run pacman/yay to install required packages now? (requires sudo)"; then
+  echo "Updating system (sudo pacman -Syu)"
+  sudo pacman -Syu
+
+  echo "Installing core packages with pacman"
+  sudo pacman -S hyprland hypridle hyprlock hyprshot waybar rofi kitty fish awww swaync btop \
+               cava cliphist wl-clipboard matugen nautilus neovim satty otf-aurulent-nerd \
+               otf-font-awesome ttf-dejavu ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
+               ttf-nerd-fonts-symbols woff2-font-awesome --needed
+
+  if command -v yay >/dev/null 2>&1; then
+    echo "Installing AUR packages with yay"
+    yay -S wlogout neofetch papirus-folders ttf-joypixels ttf-rubik-vf \
+               ttf-material-design-icons-extended --needed
+  else
+    echo "\nNote: 'yay' not found. If you want AUR packages installed, install yay and run:" \
+         "\n  yay -S wlogout neofetch papirus-folders ttf-joypixels ttf-rubik-vf \\" \
+         "\n             ttf-material-design-icons-extended --needed"
+  fi
+else
+  echo "Skipping package installation."
+fi
+
 echo "Step 1 — Copying .config to ~/.config"
 mkdir -p "$HOME/.config"
 # rsync preserves structure and is safe for copying many files
