@@ -3,8 +3,8 @@
 
 
 
-# 🌿 Hyprland Dotfiles
-
+# 🌿 Hyprland Dotfiles (discontinued)
+# I will make a new rice with QuickShell
 > *I made a Rice that brings together effciency, aesthetics, and ease of use.*
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
